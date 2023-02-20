@@ -1,2 +1,2 @@
 #!/bin/bash
-eco $(cut -cd | tr -d " \n")
+echo  $(cut -cd | tr -d " \n")
