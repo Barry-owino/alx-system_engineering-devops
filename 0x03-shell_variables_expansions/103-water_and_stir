@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Convert WATER from its base to base 10
+dec_water=$(echo "ibase=$water; $WATER" | bc)
+
+# Convert STIR from its base to base 10
+dec_stir=$(echo "ibase=$stir; $STIR" | bc)
+
+# Add them and convert to bestchol base
+echo "obase=$bestchol; $dec_water + $dec_stir" | bc
+
