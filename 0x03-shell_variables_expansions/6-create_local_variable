@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Define a local variable inside a function
+my_function() {
+    local BEST="School"
+    echo "Inside function: BEST = $BEST"
+}
+
+# Call the function to create and use the local variable
+my_function
+
+# Try to access it outside (will not work)
+echo "Outside function: BEST = $BEST"
+
