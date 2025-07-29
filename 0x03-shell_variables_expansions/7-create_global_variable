@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Create a global variable
+export BEST="School"
+
+# Show the value
+echo "BEST = $BEST"
+
