@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$WATER" | tr water 01234 | xargs -I{} echo "$STIR" | tr stir 0123 | xargs -I% echo $(( {} + % )) | tr 01234567 bestchol
+echo $(( $(echo "$WATER" | tr water 01234) + $(echo "$STIR" | tr stir 0123) )) | tr 0123456789abcdef bestcholbestchol
