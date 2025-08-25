@@ -1,5 +1,2 @@
 #!/bin/bash
-
-# Convert binary (base 2) in $BINARY to decimal (base 10) using bc
-echo "ibase=2; $BINARY" | bc
-
+echo "$((2#$BINARY))"
