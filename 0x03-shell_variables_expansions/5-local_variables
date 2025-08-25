@@ -1,13 +1,2 @@
 #!/bin/bash
-
-echo "🔹 Environment Variables:"
-printenv
-echo
-
-echo "🔹 Local and Environment Variables (Shell Variables):"
 set
-echo
-
-echo "🔹 Functions:"
-declare -f
-
