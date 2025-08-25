@@ -1,6 +1,2 @@
 #!/bin/bash
-my_function() {
-    local BEST="School"
-    echo "Inside function: BEST = $BEST"
-}
-
+BEST="School"
