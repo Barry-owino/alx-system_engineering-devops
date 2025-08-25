@@ -1,2 +1,3 @@
 #!/bin/bash
-echo $(( $(echo "$WATER" | tr 'water' '01234') + $(echo "$STIR" | tr 'stir' '0123') )) | tr '0123456789' 'bestcholhc'
+n=$(( $(echo "$WATER" | tr 'water' '01234') + $(echo "$STIR" | tr 'stir' '0123') ))
+echo $n | tr '0123456789' 'bestcholhc'
