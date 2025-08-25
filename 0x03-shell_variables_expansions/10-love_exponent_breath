@@ -1,5 +1,2 @@
 #!/bin/bash
-
-# Use bc to calculate exponentiation since Bash doesn't support ** with variables directly
 echo "$BREATH ^ $LOVE" | bc
-
